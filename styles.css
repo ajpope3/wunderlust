@@ -833,24 +833,14 @@ main img{
 
     header > nav {
         order: 2;
-        width: 100%;
+        width: 50%;
         background: none;
     }
 
-    header h1, header p{
-        order: 3;
-    }
-    header {
-        display: flex;
-        justify-content: space-between; /* Align logo to left and nav to right */
-        align-items: center; /* Vertically center items */
-        }
 
         #intro {
         display: flex;
         }
-
-       
 
         
 
