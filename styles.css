@@ -752,11 +752,6 @@ main img{
     header nav ul li a {
     background-color: var(--white);
     }
-    /* PLAN */
-    #plan img{
-        width: 10px;
-        margin-top: 10px;
-    }
     #img-grid {
         display: flex;
         flex-wrap: wrap;
@@ -776,6 +771,33 @@ main img{
       #img-grid picture img {
         width: 100%;
       }
+    /* PLAN */
+    #plan img{
+        width: 60px;
+        margin-top: 10px;
+    }
+
+    #plan > div {
+        display: flex;
+        flex-direction: column; 
+      }
+      
+      .row1,
+      .row2 {
+        display: flex;
+      }
+      
+      .row1 section,
+      .row2 section {
+        flex: 1;
+        width: 50%;
+        box-sizing: border-box;
+      }
+      
+      
+      
+      
+      
       
       
       
