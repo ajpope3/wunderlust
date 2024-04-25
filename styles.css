@@ -800,7 +800,7 @@ main img{
       
       #about section {
         flex: 1;
-        max-width: 90px;
+        max-width: 100%;
       }
       #nums fieldset {
         display: flex;
