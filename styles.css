@@ -801,6 +801,14 @@ main img{
         flex: 1;
         max-width: 90px;
       }
+      #nums fieldset {
+        display: flex;
+      }
+      
+      #nums label {
+        margin-right: 20px;
+      }
+      
       
       
       
