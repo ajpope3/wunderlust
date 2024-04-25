@@ -832,13 +832,13 @@ main img{
     }
 
     header > nav {
-        order: 3;
+        order: 2;
         width: 100%;
         background: none;
     }
 
     header h1, header p{
-        order: 2;
+        order: 3;
     }
     /* NAV */
 
