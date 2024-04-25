@@ -793,7 +793,14 @@ main img{
         width: 50%;
         box-sizing: border-box;
       }
+      #about > div {
+        display: flex;
+      }
       
+      #about section {
+        flex: 1;
+        max-width: 90px;
+      }
       
       
       
