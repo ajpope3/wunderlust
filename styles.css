@@ -737,6 +737,7 @@ main img{
         border: none;
         margin: 0 auto;
         font-size: 10px;
+        background-color: var(--color-white);
     }
 
     #menu-toggle ul li a {
@@ -822,30 +823,18 @@ main img{
 @media only screen and (min-width: 1025px) {
      /* HEADER */
 
-     header {
-        background: linear-gradient(to bottom, var(--color-teal), #FFFFFF);
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        
-    }
-
     header > nav {
         order: 2;
         width: 50%;
         background: none;
     }
-
-
         #intro {
         display: flex;
-        }
-
-        
-
-
-
+    }
+    header p{
+        display: flex;
+        width: 100%;
+    }
 
     /* NAV */
 
@@ -861,6 +850,7 @@ main img{
         border: none;
         margin: 0 auto;
         font-size: 10px;
+        background-color: var(--color-white);
     }
 
     #menu-toggle ul li a {
@@ -872,9 +862,6 @@ main img{
     }
     #menu-toggle ul li a:active {
         background-color: var(--color-yellow);
-    }
-    header nav ul li a {
-    background-color: var(--white);
     }
     #img-grid {
         display: flex;
@@ -906,7 +893,7 @@ main img{
       }
       
       #plan section {
-        flex: 1; /* Each section takes up equal space */
+        flex: 1;
       }
       
       
