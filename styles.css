@@ -931,7 +931,6 @@ main img{
       
       #about section {
         flex: 1;
-        max-width: 90px;
       }
       #nums fieldset {
         display: flex;
