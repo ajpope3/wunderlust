@@ -915,6 +915,16 @@ main img{
         width: 50%;
         box-sizing: border-box;
       }
+
+      #testimonials > div {
+        display: flex;
+      }
+      
+      #testimonials section {
+        flex: 1; 
+      }
+      
+
       #about > div {
         display: flex;
       }
